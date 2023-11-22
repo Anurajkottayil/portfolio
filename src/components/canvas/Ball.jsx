@@ -12,7 +12,7 @@ const Ball = (props) => {
 
   useFrame((state, delta) => {
     // Adjust the rotation speed by multiplying with a factor
-    setRotation((prevRotation) => {
+  /*  setRotation((prevRotation) => {
       const newRotation = prevRotation + delta * rotationSpeed;
 
       // Ensure the rotation stays within the specified range
@@ -21,7 +21,7 @@ const Ball = (props) => {
       }
 
       return newRotation;
-    });
+    }); */
   });
 
 

@@ -18,7 +18,9 @@ message:'',
 });
 const[loading,setLoading]= useState(false);
 
-const handleChange = (e) => {}
+const handleChange = (e) => {
+  setForm(e.currentTarget.value)
+  }
 
 const handleSubmit = (e) => {} 
  return (
@@ -79,13 +81,13 @@ const handleSubmit = (e) => {}
         </form>
 
     </motion.div>
-    <motion.div 
+ {/*}   <motion.div 
    variants={slideIn('right',"tween",0.2,1)}
    className=" xl:flex-1 xl:h-auto md:h-[550px] h-[350px]"
     >
-      <EarthCanvas/>
+     <EarthCanvas/>
 
-    </motion.div>
+ </motion.div> */}
    </div>
   )
 }
