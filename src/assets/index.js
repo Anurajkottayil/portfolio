@@ -35,10 +35,12 @@ import flutter from "./tech/flutter.png";
 import lbsconnect from "./lbsconnect.jpg";
 import maths from "./maths.jpg";
 import hostel from "./hostel.jpg";
+import desktop from "./download.png";
 
 export {
   logo,
   backend,
+  desktop,
   ults,
   flutter,
   dot,
