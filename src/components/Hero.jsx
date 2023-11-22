@@ -28,13 +28,13 @@ const Hero = () => {
       <img
         src={desktop}
         alt="computer"
-        className="hidden sm:block absolute top-0 left-48 h-full"
+        className="hidden sm:block absolute top-0 left-48  h-full"
       />
 
       <img
         src={desktop}
         alt="computer"
-        className="block sm:hidden absolute top-60 right-10 w-full"
+        className="block sm:hidden absolute top-64 right-3 w-full "
       />
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>

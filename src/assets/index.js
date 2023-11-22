@@ -36,9 +36,11 @@ import lbsconnect from "./lbsconnect.jpg";
 import maths from "./maths.jpg";
 import hostel from "./hostel.jpg";
 import desktop from "./download.png";
+import earth1 from  "./earth1.png";
 
 export {
   logo,
+  earth1,
   backend,
   desktop,
   ults,
